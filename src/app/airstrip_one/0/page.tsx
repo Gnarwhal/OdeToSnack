@@ -36,7 +36,7 @@ function Marquee({ children }: { children: React.ReactNode }) {
 export default function Home() {
 	return (
 		<div className={center_vertical}>
-			<Marquee>THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU </Marquee>
+			<Marquee>THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU </Marquee>
 			<BeegText>THE SNACK IS</BeegText>
 			<Image className={big_brother_style} width={256} height={256} src='/big_brother.png' alt='Big Brother' />
 			<BeegText>WATCHING YOU</BeegText>
@@ -52,7 +52,7 @@ export default function Home() {
 					<Image className={cat} width={128} height={128} src='/praising_cat.gif' alt='Cat praising Big Brother' />
 				</div>
 			</div>
-			<Marquee>THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU </Marquee>
+			<Marquee>THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU THE SNACK IS WATCHING YOU </Marquee>
 		</div>
 	)
 }
