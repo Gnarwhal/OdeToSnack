@@ -15,11 +15,16 @@ const scroll_marquee = keyframes({
 
 export const marquee_content = style({
 	position:                'relative',
-	fontSize:                '1em',
+	fontSize:                '0.75em',
 	color:                   'magenta',
 	whiteSpace:              'nowrap',
 	animationName:            scroll_marquee,
 	animationDuration:       '8s',
 	animationTimingFunction: 'linear',
 	animationIterationCount: 'infinite',
+	'@media': {
+		'screen and (min-width: 768px)': {
+			fontSize: '1em',
+		}
+	}
 })

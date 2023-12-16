@@ -6,14 +6,24 @@ export const center_vertical = style({
 	flexDirection: 'column',
 	alignItems:    'center',
 	margin:        'auto',
-	width:         '50%',
-	border:        '0.3em solid purple'
+	width:         '100%',
+	border:        '0.3em solid purple',
+	'@media': {
+		'screen and (min-width: 768px)': {
+			width: '50%',
+		}
+	}
 })
 
 export const big_brother_style = style({
-	width:  '40%',
+	width:  '60%',
 	height: 'auto',
-	border: '0.3em solid purple'
+	border: '0.3em solid purple',
+	'@media': {
+		'screen and (min-width: 768px)': {
+			width: '40%',
+		}
+	}
 })
 
 export const cats_div = style({

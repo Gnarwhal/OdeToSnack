@@ -8,7 +8,12 @@ export const beeg_container = style({
 
 const beeg = style({
 	position: 'absolute',
-	fontSize: '3em',
+	fontSize: '1.75em',
+	'@media': {
+		'screen and (min-width: 768px)': {
+			fontSize: '3em',
+		}
+	}
 })
 
 export const beeg_dummy = style([beeg, {
