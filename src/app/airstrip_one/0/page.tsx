@@ -1,36 +1,19 @@
+import { Metadata } from 'next'
 import Image from 'next/image'
+import Marquee from './components/Marquee'
+import BeegText from './components/BeegText'
 import {
 	center_vertical,
-	marquee_container,
-	marquee_content,
-	beeg_container,
-	beeg_foreground,
-	beeg_background,
 	big_brother_style,
 	cats_div,
 	subcats_div,
 	reverse_subcats_div,
 	cat,
-	beeg_dummy,
 } from './page.css'
 
-function BeegText({ children }: { children: React.ReactNode }) {
-	return (
-		<div className={beeg_container}>
-			<p className={beeg_background}>{children}</p>
-			<p className={beeg_foreground}>{children}</p>
-			<p className={beeg_dummy}     >{children}</p>
-		</div>
-	)
-}
-
-function Marquee({ children }: { children: React.ReactNode }) {
-	return (
-		<div className={marquee_container}>
-			<p className={marquee_content}>{children}</p>
-			<p className={marquee_content}>{children}</p>
-		</div>
-	)
+export const metadata: Metadata = {
+	title: 'The Snack is Watching You',
+	description: 'The Snack is Watching You',
 }
 
 export default function Home() {
